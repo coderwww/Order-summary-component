@@ -137,6 +137,9 @@ body {
         font-size: 100%;
         background-position: 25px center;
     }
+    .order-summary .h {
+        margin-bottom: 5px;
+    }
     .order-summary .offer a {
         font-size: 90%;
     }
