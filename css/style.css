@@ -44,6 +44,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    -webkit-box-shadow: 0 30px 30px -10px var(--violet-blue-transparent);
+    box-shadow: 0 30px 30px -10px var(--violet-blue-transparent);
+
 }
 .order-summary .header {
     font-weight: 900;
@@ -100,7 +103,7 @@ body {
     background-color: var(--bright-blue);
     color: var(--very-pale-blue);
     font-weight: 700;
-    font-size: 90%;
+    font-size: 95%;
     -webkit-box-shadow: 0 17px 20px 0 var(--violet-blue-transparent);
     box-shadow: 0 17px 20px 0 var(--violet-blue-transparent);
     transition: all 0.5s ease-in-out;
@@ -126,7 +129,7 @@ body {
     }
     .order-summary {
         max-width: 450px;
-        padding: 270px 50px 50px 50px;
+        padding: 270px 50px 47px 50px;
         gap: 30px;
     }
     .order-summary .header {
@@ -142,5 +145,9 @@ body {
     }
     .order-summary .offer a {
         font-size: 90%;
+    }
+    .order-summary .cancel {
+        margin-top: 3px;
+        font-size: 100%;
     }
 }
